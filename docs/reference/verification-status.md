@@ -11,6 +11,7 @@
 | Plugin Reload | `tests/scenarios/25_plugin_hotreload.sh` | E2E 스크립트 확인, 직접 실행하지 않음 |
 | 개발자 워크플로 | `docs-site/content/ko/developer/` | 기존 매뉴얼 확인 |
 | 금융 확장 계층 | `lamp-fin/README.md`, 주요 디렉터리 | 구조 확인 |
+| MQTT Bridge / BLE Bridge | 사용 범위 확장 계획(2026-11-20) | Planned: 코드·테스트·기능 제공 여부 미검증 |
 | 성능·SLA | 벤치마크 스크립트 존재 | 공식 측정·보증 자료 미확인 |
 | Master HA | 기존 프로젝트 계획 문서 | 버전별 변경 가능, 현재 실행 검증 미실시 |
 

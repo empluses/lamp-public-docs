@@ -19,6 +19,8 @@ flowchart TB
 
 > 개념도입니다. LAMP 모드와 Kubernetes 모드의 구성요소를 하나의 물리 배포도에 동시에 배치했다는 뜻이 아닙니다.
 
+추가 예정인 MQTT·BLE 연계는 위 그림에 구현 완료 컴포넌트처럼 포함하지 않았습니다. 목표 설계는 [Protocol Bridge 확장 모델](protocol-bridges.md)에 별도로 명시합니다.
+
 ## 주요 영역
 
 - **Master:** 관리 API·상태 집계·구성 및 명령 흐름의 진입점.

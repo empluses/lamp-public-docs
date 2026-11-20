@@ -1,5 +1,13 @@
 # 공개 문서 버전·Git 태그 정책
 
+## 현재 릴리스
+
+- 문서 버전: **1.0-rc2**
+- Git 태그 목표: **`1.0-rc2`** (접두사 `v` 없음)
+- 변경: IoT/Edge 적용 범위와 MQTT/BLE Bridge 예정 구조를 로드맵으로 추가
+- 기존 `1.0-rc1`은 보존하고 변경하지 않음
+- 태그 게시 상태는 실제 GitHub ref 생성 결과로 검증할 것
+
 ## 최초 릴리스
 
 - 문서 버전: **1.0-rc1**
@@ -25,11 +33,10 @@
 ## 배포 절차
 
 ```bash
-# GitHub에서 empluses/lamp-public-docs 빈 저장소 생성 후
-# 준비된 로컬 Git 저장소에서 실행:
+# 빈 저장소가 이미 준비된 경우
 git remote add origin https://github.com/empluses/lamp-public-docs.git
 git push -u origin main
-git push origin 1.0-rc1
+git push origin 1.0-rc1 1.0-rc2
 ```
 
 GitHub Pages 또는 별도 문서 도메인 배포는 공개 승인 이후 별도 설정합니다. 태그가 존재하는 것만으로 문서 사이트가 공개되는 것은 아닙니다.

@@ -20,6 +20,8 @@
 
 **API·레거시 연계** — 중간 서비스에 인증·변환·캐시와 같은 관심사를 배치할 수 있습니다. 외부 표준 API는 별도 Gateway 계약이 필요할 수 있습니다.
 
+**IoT / Edge 확장(Planned)** — 디바이스, 게이트웨이, MQTT Broker와의 연계를 Bridge 서비스로 구현하는 방향을 검토합니다. BLE 연결/GATT 접근, MQTT Topic/QoS 및 재접속 정책은 각 Bridge 책임으로 두며 실제 구현과 호환성은 후속 검증 대상입니다. [로드맵](iot-edge-roadmap.md).
+
 ## 피해야 할 표현
 
 'LAMP는 모든 장애에서 무중단', '초당 N건 보장', 'Master까지 Active-Active', '실서비스 환경에서 검증 완료'는 해당 주장에 대한 재현 가능한 검증 자료 없이는 사용하지 않습니다.
